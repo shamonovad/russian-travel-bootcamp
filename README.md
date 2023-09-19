@@ -15,4 +15,4 @@
 * Grid-вёрстка
 * Адаптация сайта под различные устройства  
 
-#### Ссылка на проект в [__GitHub__ __Pages__] (https://shamonovad.github.io/russian-travel-bootcamp/).
+#### Ссылка на проект в [__GitHub__ __Pages__](https://shamonovad.github.io/russian-travel-bootcamp/).
