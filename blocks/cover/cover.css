@@ -1,0 +1,37 @@
+.cover {
+    margin-top: 92px;
+    width: 92.5%;
+    height: 740px;
+    background-image: url(../../images/__background.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.cover::before:hover {
+    transition: 2s;
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        width: 100%;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        width: 100%;
+        height: 200px;
+    }
+}

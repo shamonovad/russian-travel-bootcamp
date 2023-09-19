@@ -1,0 +1,27 @@
+.footer {
+    width: 92.5%;
+    color: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 92px auto 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        min-width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        min-width: 90%;
+        flex-direction: column;
+        margin: 64px 16px 24px;
+    }
+}

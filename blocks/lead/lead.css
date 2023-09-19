@@ -1,0 +1,30 @@
+.lead {
+    text-align: center;
+    color: #fff;
+    margin: 56px auto 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 11.5%;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        margin: 48px auto 0;
+        padding: 0 4.7%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        margin: 48px auto 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        margin: 48px -2 0;
+        overflow: hidden;
+        padding: 0;
+    }
+}

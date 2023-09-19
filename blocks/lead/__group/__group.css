@@ -1,0 +1,11 @@
+.lead__group {
+    background-image: url(../../../images/Group\ 4.svg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 95.5%;
+    height: 43%;
+    margin-top: 9%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
