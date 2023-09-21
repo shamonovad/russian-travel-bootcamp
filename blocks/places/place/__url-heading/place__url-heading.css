@@ -7,3 +7,10 @@
   margin-top: 0;
   margin-bottom: 12px;
 }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .place__url-heading {
+      font-size: 10px;
+      line-height: 10px;
+  }
+}

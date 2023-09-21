@@ -12,15 +12,9 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
     .footer {
-        min-width: 90%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .footer {
-        min-width: 90%;
+        max-width: 186px;
         flex-direction: column;
         margin: 64px 16px 24px;
     }

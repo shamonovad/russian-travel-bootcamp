@@ -5,13 +5,22 @@
     font-weight: 400;
     margin: 0;
     padding-top: 32px;
-    width: 60%;
-    height: 72px;
+    width: 100%;
+    max-width: 640px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
     .lead__subtitle {
-        height: 40px;
+        max-width: 380px;
+        padding-top: 16px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .lead__subtitle {
+        max-width: 288px;
         padding-top: 16px;
         font-size: 16px;
         line-height: 20px;

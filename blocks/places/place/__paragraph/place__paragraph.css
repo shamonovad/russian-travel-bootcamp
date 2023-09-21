@@ -24,3 +24,11 @@
         line-height: 26.08px;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .place__paragraph {
+        box-sizing: border-box;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
