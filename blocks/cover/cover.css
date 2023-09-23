@@ -1,10 +1,10 @@
 .cover {
-    margin-top: 92px;
+    display: flex;
+    margin: 92px auto 0;
     width: 100%;
     max-width: 1184px;
     text-align: center;
     color: #fff;
-    position: relative;
 }
 
 .cover::before:hover {
@@ -15,5 +15,23 @@
 @media screen and (min-width: 1025px) {
     .cover {
         width: 92.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin-top: 103px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover {
+        margin-top: 68px;
     }
 }

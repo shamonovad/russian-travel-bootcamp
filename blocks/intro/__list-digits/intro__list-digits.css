@@ -1,11 +1,12 @@
 .intro__list-digits {
     width: 100%;
+    max-width: 720px;
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
     .intro__list-digits {
         max-width: 690px;
     }

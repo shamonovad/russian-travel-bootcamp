@@ -1,37 +1,42 @@
 .photo-grid {
     margin: 92px auto 0;
     display: grid;
+    justify-content: center;
     list-style: none;
     width: 92%;
+    max-width: 1184px;
     padding: 0;
     grid-template-columns: repeat(4, calc((99% - 30px)/4));
-    grid-template-rows: repeat(3, calc((99% - 26px)/3));
+    grid-template-rows: calc((99% - 26px)/3);
     gap: 13px 15px;
 }
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        grid-template-columns: repeat(3, calc((98% - 30px)/3));
-        grid-template-rows: repeat(4, calc((98% - 26px)/4));
+        max-width: 928px;
+        grid-template-columns: repeat(3, calc((100% - 30px)/3));
+        grid-template-rows: calc((98% - 26px)/4);
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-        width: 98%;
+        width: 94%;
+        max-width: 720px;
         margin-top: 90px;
-        grid-template-columns: repeat(2, calc((98% - 32px)/2));
-        grid-template-rows: repeat(6, calc((97% - 24px)/6));
-        gap: 12px 16px;
+        grid-template-columns: repeat(2, calc((100% - 18px)/2));
+        grid-template-rows: calc((96% - 34px)/6);
+        gap: 16px 16px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .photo-grid {
         margin-top: 62px;
         width: 100%;
+        max-width: 320px;
         grid-template-columns: repeat(1, calc(98% - 30px));
-        grid-template-rows: repeat(12, calc((96% - 24px)/12));
+        grid-template-rows: calc((95.5% - 22px)/12);
         row-gap: 12px;
     }
 }

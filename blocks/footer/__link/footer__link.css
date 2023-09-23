@@ -1,7 +1,7 @@
 .footer__link {
     color: #fff;
     text-decoration: none;
-    padding-left: 18px;
+    padding-left: 14px;
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
@@ -13,14 +13,16 @@
 
 .footer__link:hover {
     transform: 0.3s;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .footer__link {
         display: block;
         padding-left: 0;
         padding-top: 32px;
+        font-size: 24px;
+        line-height: 24px;
     }
 
     .footer__link:first-child {
