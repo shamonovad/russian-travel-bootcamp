@@ -7,17 +7,6 @@
     color: #fff;
 }
 
-.cover::before:hover {
-    transition: 2s;
-    opacity: 0.2;
-}
-
-@media screen and (min-width: 1025px) {
-    .cover {
-        width: 92.5%;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .cover {
         margin-top: 103px;

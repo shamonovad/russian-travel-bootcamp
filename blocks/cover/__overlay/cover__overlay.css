@@ -1,20 +1,27 @@
+.cover__overlay { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    background-image: url(../../../images/__background.jpg); 
+    text-decoration: none; 
+    color: #fff; 
+    width: 100%; 
+    max-width: 1184px; 
+    min-height: calc(100vw * (740/1184)); 
+    object-fit: cover; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
 
-.cover__overlay {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-image: url(../../../images/__background.jpg);
-    text-decoration: none;
-    color: #fff;
-    width: 100%;
-    max-width: 1184px;
-    height: calc(100vw * (740/1184));
-    max-height: 740px;
-    object-fit: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
+@media screen and (min-width:1184px) {
+    .cover__overlay {
+        margin-left: auto;
+        margin-right: auto;
+        width: calc(100vw - 96px);
+        min-height: 740px;
+    }
 }
 
 .cover__overlay::before {
@@ -31,10 +38,4 @@
 .cover__overlay:hover::before {
     transition: 0.3s;
     opacity: 0.8;
-}
-
-@media screen and (min-width: 1280px) {
-    .cover__overlay {
-        height: calc(92.5vw * (740/1184));
-    }
 }
